@@ -1,2 +1,4 @@
 # nodejs_mock_data
-build mock web service in nodejs instead of web api
+Build mock web service in nodejs instead of web api
+
+based on this article:http://awkwardcoder.blogspot.com/2013/09/building-mock-web-service-in-nodejs.html
