@@ -1,0 +1,10 @@
+{
+    "flag": "success",
+    "data": {
+        "role": "super"
+    },
+    "msg": "success.",
+    "format_msg": {
+        "code": ["YM_10001"]
+    }
+}

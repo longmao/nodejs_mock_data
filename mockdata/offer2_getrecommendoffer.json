@@ -1,0 +1,31 @@
+{
+    "flag": "success",
+    "data": {
+        "list": [{
+            "offer_id": "200050",
+            "is_caps": "0",
+            "caps_daily_conversions": "",
+            "caps_monthly_conversions": "",
+            "caps_daily_payout": "",
+            "caps_monthly_payout": "",
+            "description": "000",
+            "preview_url": "http:\/\/baidu.com",
+            "is_recommend": "1",
+            "recommend_info": "22222222&\u4e00\u8d77\u63a8\u5e7f",
+            "name": "lynn\\'s offer 1",
+            "logo": "http:\/\/uploads.yeahmobi.com\/offer_file\/thumb_fee64beb98daaeed38a427eff8d23d62.jpg",
+            "category": ["000", "Adult", "Anti-Virus", "APP Download - Android (Games)"],
+            "country": ["CN"],
+            "device": ["iOS", "Android", "MeeGo", "Windows Phone", "PSP", "Java", "Linux", "BlackBerry Tablet", "BlackBerry", "Symbian", "webOS", "Brew MP"],
+            "channel": ["Adult traffic allowed", "Display traffic allowed", "Email Traffic allowed"],
+            "payout": "1.000",
+            "expiration_date": "2016-04-02",
+            "caps_redirect_offer_name": "",
+            "permission": "Open"
+        }]
+    },
+    "msg": "success.",
+    "format_msg": {
+        "code": ["YM_10001"]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "flag": "success",
+    "data": {
+        "billing_logout_url": "http:\/\/billing.rtm.dy\/ymBilling\/common.show?actionMethod=logout"
+    },
+    "msg": "logout is success.",
+    "format_msg": {
+        "code": ["YM_10011"]
+    }
+}

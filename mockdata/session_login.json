@@ -1,0 +1,8 @@
+{
+    "flag": "success",
+    "data": ["", "payment", "email"],
+    "msg": "success.",
+    "format_msg": {
+        "code": ["YM_10001"]
+    }
+}

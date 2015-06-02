@@ -1,0 +1,9 @@
+
+{
+    "flag": "success",
+    "data": "{}",
+    "msg": "success.",
+    "format_msg": {
+        "code": ["YM_10001"]
+    }
+}
