@@ -3,14 +3,14 @@ var express = require('express'),
     path = require('path'),
     cors = require('cors'),
     options = require('node-options'),
-    fileSystem = require('node-fs'),
+    fileSystem = require('node-fs'),populateResponse
     bodyParser = require('body-parser'),
     statusCodes = require('./statusCodes');
 
 var rootDir = path.resolve('.', 'mockdata').toLowerCase();
 
 var opts = {
-    "port": process.env.PORT | 1008,
+    "port": process.env.port | 80,
     "verbose": false
 };
 
@@ -44,8 +44,9 @@ app.all('/:resource/:id', function(req, res) {
 
     if (fileSystem.existsSync(resourceDir)) {
         try {
-            statusCodes.populateResponse(res, "200", resourcePath);
+            statusCodes.populateResponse(req, res, "200", resourcePath);
         } catch (e) {
+            console.error(e);
             res.status(200).sendFile(path.join(__dirname, resourceDir, 'empty.json'));
         }
     } else {

@@ -1,24 +1,31 @@
-{
-    "flag": "success",
+[{
+    "url": "/Session/getPassport",
+    "get": {},
+    "role":"super_am",
+    "system":"manage",
+    "statusCode": 200,
     "data": {
-        "name": "SUPER AM",
-        "union_id": "1",
-        "email": "admin@qq.com",
-        "role_id": "2",
-        "id": "4",
-        "parent_id": "1",
-        "create_time": "2012-03-20 05:45:44",
-        "first_name": "Peter",
-        "last_name": "Zou",
-        "status": "active",
-        "sign_up_ip": "",
-        "email_send_address": "rtm@ym.test",
-        "timezone": "0",
-        "referral_timezone": "0",
-        "is_virtual": 0
-    },
-    "msg": "success.",
-    "format_msg": {
-        "code": ["YM_10001"]
+        "flag": "success",
+        "data": {
+            "name": "SUPER AM",
+            "union_id": "1",
+            "email": "admin@qq.com",
+            "role_id": "2",
+            "id": "4",
+            "parent_id": "1",
+            "create_time": "2012-03-20 05:45:44",
+            "first_name": "Peter",
+            "last_name": "Zou",
+            "status": "active",
+            "sign_up_ip": "",
+            "email_send_address": "rtm@ym.test",
+            "timezone": "0",
+            "referral_timezone": "0",
+            "is_virtual": 0
+        },
+        "msg": "success.",
+        "format_msg": {
+            "code": ["YM_10001"]
+        }
     }
-}
+}]

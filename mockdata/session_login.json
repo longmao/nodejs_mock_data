@@ -1,8 +1,13 @@
-{
-    "flag": "success",
-    "data": ["", "payment", "email"],
-    "msg": "success.",
-    "format_msg": {
-        "code": ["YM_10001"]
+[{
+    "url": "/Session/login",
+    "post": {},
+    "statusCode": 200,
+    "data": {
+        "flag": "success",
+        "data": ["", "payment", "email"],
+        "msg": "success.",
+        "format_msg": {
+            "code": ["YM_10001"]
+        }
     }
-}
+}]

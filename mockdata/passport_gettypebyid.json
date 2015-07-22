@@ -1,8 +1,14 @@
-{
-    "flag": "success",
-    "data": "employee",
-    "msg": "success.",
-    "format_msg": {
-        "code": ["YM_10001"]
+[{
+    "get:" :{
+
+    },
+    "data": {
+        "flag": "success",
+        "data": "employee",
+        "msg": "success.",
+        "format_msg": {
+            "code": ["YM_10001"]
+        }
     }
-}
+
+}]

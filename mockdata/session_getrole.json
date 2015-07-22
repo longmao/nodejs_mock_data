@@ -1,10 +1,46 @@
-{
-    "flag": "success",
+[{
+    "url": "/Session/getRole",
+    "post": {},
+    "role": "am",
+    "system": "manage",
+    "statusCode": 200,
     "data": {
-        "role": "super"
-    },
-    "msg": "success.",
-    "format_msg": {
-        "code": ["YM_10001"]
+        "flag": "success",
+        "data": {
+            "role": "am"
+        },
+        "msg": "success.",
+        "format_msg": {
+            "code": ["YM_10001"]
+        }
     }
-}
+}, {
+    "url": "/Session/getRole",
+    "post": {},
+    "role": "am",
+    "system": "manage",
+    "statusCode": 200,
+    "data": {
+        "flag": "success",
+        "data": {
+            "role": "super"
+        },
+        "msg": "success.",
+        "format_msg": {
+            "code": ["YM_10001"]
+        }
+    }
+}, {
+    "url": "/Session/getRole",
+    "post": {},
+    "role": "super_am",
+    "system": "manage",
+    "statusCode": 200,
+    "data": {
+        "flag": "fail",
+        "msg": "You do not have the authority to operate!",
+        "format_msg": {
+            "code": ["YM_10000"]
+        }
+    }
+}]

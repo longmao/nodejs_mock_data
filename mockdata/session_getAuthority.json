@@ -1,4 +1,10 @@
-{
+[{
+    "url": "/Session/getAuthority",
+    "get": {},
+    "role":"super_am",
+    "system":"manage",
+    "statusCode": 200,
+    "data": {
     "flag": "success",
     "data": {
         "list": {
@@ -227,3 +233,7 @@
         "code": ["YM_10001"]
     }
 }
+
+}]
+
+
